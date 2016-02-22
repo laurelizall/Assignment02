@@ -1,0 +1,24 @@
+1.
+if(karel.canPickThing())                                    
+{                                                        
+    karel.turnRight();                               
+} else {                                                   
+    karel.turnLeft();                                
+}                      
+
+If karel can pick a thing, he will turn right. // 1same
+If he cannot pick a thing he will turn left. // 2same
+
+2.
+if(!karel.canPickThing())
+{                                                                          
+    karel.turnLeft();
+} else {                                                                                                                          
+    karel.turnRight();
+}       
+
+If karel cannot pick a thing, he will turn left. // 2same
+If karel cannot not pick thing, he will turn right. 
+Therefore, if karel CAN pick thing, he will turn right. // 1same
+
+In conclusion, the two codes complete the same process.

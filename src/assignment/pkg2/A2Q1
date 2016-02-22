@@ -1,0 +1,8 @@
+a. this.getAvenue() > 0 // false
+b. this.getAvenue() <= 5 // true
+c. this.getStreet() != 1 // false
+d. !(this.getStreet() == 1) // 
+e. this.frontIsClear() // false
+f. !this.frontIsClear() // true
+g. !!this.frontIsClear() // false
+h. this.frontIsClear() == false // true
